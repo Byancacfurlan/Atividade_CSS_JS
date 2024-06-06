@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    color: white; text-shadow: black 0.1em 0.1em 0.2em;
+    background-image: url("image.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.container { 
+    width: auto; 
+    margin-left: auto;
+    margin-right: auto; 
+    text-align: center;
+}
+h1 {
+    color: #f1e2ca;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+
+button {
+    padding: 15px 25px;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    font-size: 21px;
+    cursor: pointer;
+    background-color: #f7b02d;
+    color: white;
+    border: none;
+    border-radius: 6px;
+}
+
+button:hover {
+    background-color: #f7b02d;
+  
+}
+
+#mensagem {
+    color: #b765cc;
+    font-weight: bold;
+    
+}
+
+#textoAlterado {
+    color: #3ad461;
+    font-style: italic;
+  
+}
+
+a {
+    color: #e9c35d;
+    text-decoration: none;
+   
+    
+}
+
+a:hover {
+    text-decoration: underline;
+   
+    
+}
+
+.fa.pisca {
+    color: #e9c35d;
+    opacity: 1;
+}
+@keyframes anima {
+    to {
+        opacity: 0.2;
+    }
+}
+.pisca {
+    animation: anima 450ms ease infinite;
+}
